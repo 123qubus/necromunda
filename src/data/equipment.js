@@ -49,6 +49,18 @@ export const weapons: WeaponMap = {
             {  name: "Autogun", range: { short: '8"', long: '24"' }, accuracy: { short: "+1", long: "-" }, strength: "3", armourPenetration: "-", damage: "1", ammo: "5+", traits: [ "Rapid Fire (1)" ] },
         ]  
     },
+
+    "Enforcer Boltgun": { cost: 50, rarity: "rare", rarityLevel: 8, type: "ranged", subType: "basic" 
+    },
+    
+    "Cawdor polearm/autogun": { 
+        cost: 20, rarity: "cawdor", type: "ranged", subType: "basic",
+        profile: [
+            { name: "Cawdor polearm with autogun" },
+            {  name: "Polearm", range: { short: 'E', long: '2"' }, accuracy: { short: "-1", long: "-" }, strength: "S+1", armourPenetration: "-", damage: "1", ammo: "-", traits: [ "Melee", "Unwieldy", "Versatile" ] },
+            {  name: "Autogun", range: { short: '8"', long: '24"' }, accuracy: { short: "+1", long: "-" }, strength: "3", armourPenetration: "-", damage: "1", ammo: "5+", traits: [ "Rapid Fire (1)" ] },
+        ]  
+    },
     "Cawdor polearm/blunderbuss with grape & purgation shot": { 
         cost: 40, rarity: "cawdor", type: "ranged", subType: "basic",
         profile: [
